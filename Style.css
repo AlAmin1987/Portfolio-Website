@@ -1,0 +1,281 @@
+/* Google fornt:@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Roboto:wght@500;700&display=swap');
+ */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* Basic CSS 
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background-image: url(./Image/background.jpg) ;
+    background-size: cover;
+    font-size: 17px;
+    line-height: 1.5;
+    background-attachment: fixed;
+
+}
+h1
+h2
+h3
+h4
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+body.container{
+    padding: 0 5%;
+
+}
+a{
+    font-weight: 800;
+}
+a.Theme-Button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00c0ff;
+    color: white;
+    display: inline-block;
+    padding: 10px; 
+    margin-top: 15px; 
+    border-radius: 50px;
+    transition: .5sec;
+}
+a.Theme-Button:hover{
+    background-color: #ffff;
+    color: #00c0ff;
+}
+.Theme-Button-Small{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00c0ff;
+    color: white;
+    display: inline-block;
+    padding: 5px; 
+    border-radius: 50px;
+    transition: .5sec;
+}
+.Theme-Button-Small:hover{
+    background-color: #ffff;
+    color: #00c0ff;
+}
+
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 40px;
+    
+}
+.section-heading h4{
+font-size: 14px;
+text-transform: uppercase;
+color: #00c0ff;
+
+}
+.section-heading h3{
+font-size: 20px;
+text-transform: capitalize;
+color: #ffff
+
+}
+/*  Header-Area CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    padding: 72px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 20px;
+      
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    transition: .5sec;
+}
+.main-menu a:hover{
+    color:#00c0ff ;
+}
+/* Hero-Area CSS */
+.hero-area.container{
+    padding: 0 5%
+}
+.header-area{
+    margin-top: 80 px;
+    padding: 100 ;
+    padding-left: 250;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-text{
+    padding-left: 40px;
+    margin-right:5%;
+}
+.hero-text h2{
+    font-size: 32px;
+    color: white;
+    
+   }
+.hero-text p {
+    font-size: 12px;
+    color: rgb(243, 243, 242);
+}
+.hero-text a{
+    font-size: 14px;;
+}
+/* About-Area CSS */
+.about-area{
+    background-color: #1e1345;
+    padding: 100px 0;
+    
+}
+.about-content{
+    display: flex;
+    align-items:center;
+    }
+  .about-image{
+    flex: 1;
+
+  }
+  .about-text{
+    flex: 1;
+    
+  }
+  .about-text{
+    margin-left: 10%;
+   
+  }
+  .about-image{
+    margin-left: 5%;
+  }
+  .about-text h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #ffff;
+   
+      }
+  .about-text p{
+    font-size: 12px;
+    color: rgba(253, 251, 251, 0.719);
+    padding-bottom: 5px;
+      }
+      /* Service area CSS */
+      
+      .service-area{
+        padding: 100px 0;
+      }
+     
+      .service-content{
+        display: grid;
+        grid: gap: 30px;
+        grid-template-columns: repeat(3, 1fr)
+      
+               
+        }
+        .single-service{
+            background-color: #3a2b71;
+            padding: 30px;
+        }
+        .single-service h3{
+            font-size: 35px;
+            color: #ffff;
+
+        }
+        .single-service p{
+            font-size: 16px;
+            color: rgba(187, 186, 186, 0.836);}
+
+
+        .single-service a{
+            margin-top: 15px;
+        }
+        /* Contact-Area CSS */
+
+        .contact-area{
+            background-color: #1e1345;
+            padding: 100px 0;
+        }
+        .contact-content form{
+            display: grid;
+            padding: 15px;
+            margin: 10px;
+            grid-template-areas: 
+            "F L"
+            "E T"
+            "M M"
+            "S S"
+
+        }
+        #First-Name{
+            grid-area: F;
+        }
+        #Lirst-Name{
+            grid-area: L;
+        }
+        #First-Name{
+            Email-Address: E;
+        }
+        #Telephone-Number{
+            grid-area: T;
+        }
+        #Telephone-Number{
+            grid-area: T;
+        }
+        #Massage{
+            grid-area: M;
+        }
+        #Send-Massage{
+            grid-area: S;
+            background-color: #3a2b71;
+        }
+        .contact-content input{
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #00c0ff ;
+            background-color: #1e1345;
+            color: #ffff;}
+
+        .contact-content textarea{
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 12px;
+            border: 1px solid #00c0ff;
+            background-color: #1e1345;
+            color: #ffff;
+
+        }
+        .contact-content textarea{
+            font-size: 15px;
+            margin: 10px;
+            font-family: 'Open Sans', sans-serif;;
+        }
+        .contact-content submit{
+            background-color: #0d0138;
+        }
+        /* Footer Area CSS */
+        .footer-area{
+            padding: 25px 0;
+            text-align: center;
+            background-color: #1e1345;
+            border-top:  1px solid #1e1345;
+        }
